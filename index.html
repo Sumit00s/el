@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdgeLedger Financial | Acconting & Investment</title>
+
+    <!--FontAwsome Link-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Mobile CSS Link-->
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+
+    <!--Widescree CSS Link-->
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="wideScreen.css">
+</head>
+<body id="home">
+    <!--Navbar-->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-book-open"></i> Edge</span>Ledger
+        </h1>
+        <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#what">What</a></li>
+           <li><a href="#who">Who</a></li>
+           <li><a href="#contact">Contact</a></li> 
+        </ul>
+
+    </nav>
+
+    <!--Header showcase-->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">The Sky Is The Limit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia, voluptatem debitis nam deleniti magnam.</p>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <!--Section: What we do-->
+    <section id="what" class="bg-light py-1">
+
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+      
+            <div class="items">
+                
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <h3>Investment Banking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsum.</p>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <h3>Portfolio Management</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsum.</p>
+                </div>
+
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <h3>Tax & Custodial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsum.</p>
+                </div>
+
+            </div>
+       
+
+        </div>
+    </section>
+
+    <!--section: who we are-->
+
+    <section id="who">
+
+      <div class="who-img"></div>
+
+      <div class="who-text bg-dark p-2">
+
+          <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam maxime libero, odit fugit facere in dolorem a voluptas deserunt aliquam quisquam. Possimus quia deleniti ipsum rerum quisquam eum rem a.</p>
+          <h3>Our Team</h3>
+          <ul class="list">
+              <li>Sumit Sonawane: CEO</li>
+              <li>Mark Zukerburg: CFO</li>
+              <li>Warren Buffae: Lead Accountant</li>
+              <li>Elon Musk: Investment Manager</li>
+              <li>Kylie Jenner: Senior Accountant</li>
+          </ul>
+
+      </div>
+
+    </section>
+
+    <!--Section: Clients-->
+    <section id="clients" class="py-1">
+
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span> clients
+            </h2>
+
+            <div class="items py-1">
+               <div><img src="./images/logo1.png"></div>
+               <div><img src="./images/logo2.png"></div>
+               <div><img src="./images/logo3.png"></div>
+               <div><img src="./images/logo4.png"></div>
+               <div><img src="./images/logo5.png"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--section contact-->
+    <section id="contact">
+
+        <div class="contact-form bg-primary p-2">
+           <h2 class="m-heading">Conatct Us</h2>
+           <p>Please use the form below to contact us</p> 
+
+           <form action="process.php" method="POST">
+
+            <div class="form-group">
+                   <label for="name">Name</label>
+                   <input type="text" name="name" id="name" placeholder="Enter Name">
+               </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" placeholder="Enter Phone Number">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+            </div>
+
+            <input type="submit" value="Send" class="btn btn-dark">
+
+           </form>      
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14943.194321500625!2d74.452092228663!3d20.555420530105433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bde9a601bcf5b5f%3A0xacc7c3bc9c469e67!2sDabhadi%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1622571859897!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </section>
+
+    <!--footer-->
+
+    <footer id="main-footer" class="bg-dark text-center py-1">
+
+        <div class="container">
+             <p>Copyright &copy; 2021, EdgeLedger, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <!--Jquery Link-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--Javascript file link-->
+    <script src="./index.js"></script> 
+
+    
+</body>
+</html>
+
+<!--AIzaSyD8eMqSanQv-3LAe4pKEyM9-ajJRB4pKmY-->
